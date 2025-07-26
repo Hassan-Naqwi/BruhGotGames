@@ -1,4 +1,4 @@
-@media (min-width: 320px) and (max-width : 767px) {
+@media (min-width: 320px) and (max-width : 768px) {
 
     .container {
         width: 100%;
@@ -227,6 +227,7 @@
         background-color: #fff;
         right: 0;
         opacity: 0;
+        visibility: hidden;
         top: 100px;
         width: 100%;
         z-index: 9999;
@@ -235,6 +236,7 @@
 
     #toggle:checked+label+.dropdown-content {
         opacity: 1;
+        visibility: visible;
     }
 
     .flex {
@@ -286,6 +288,7 @@
         right: 0;
         background-color: #fff;
         opacity: 0;
+        visibility: hidden;
         top: 100px;
         width: 100%;
         z-index: 9999;
@@ -304,6 +307,7 @@
 
     #toggle:checked+label+.dropdown-content {
         opacity: 1;
+        visibility: visible;
     }
 
     .mb-80 {
@@ -492,7 +496,7 @@
 }
 
 
-@media (min-width:993px) and (max-width: 1240px) {
+@media (min-width:992px) and (max-width: 1240px) {
 
     .container {
         width: 970px;
